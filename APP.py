@@ -1,8 +1,6 @@
 # Import python libraries
 import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
-import welly
 import lasio
 from streamlit_option_menu import option_menu
 from PIL import Image
@@ -81,6 +79,7 @@ elif options== "Petrophysics Calculation":
 
             data['VSH'] = (data['GR'].max() - data['GR']) / (data['GR'].max()- data['GR'].min())
             st.write(data['VSH'])
+
 
 
 
