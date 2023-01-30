@@ -1,5 +1,6 @@
 # Import python libraries
 import streamlit as st
+import matplotlib
 import matplotlib.pyplot as plt
 import lasio
 from streamlit_option_menu import option_menu
